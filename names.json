@@ -1,0 +1,36 @@
+{
+  "name_setup" : [
+      {
+        "firstname" : "anna",
+        "lastname" : "manukyan",
+        "degree" : "phd",
+        "jobtitle" : "lecturer",
+        "organization" : "aua",
+        "subject" : "mathematics"
+      },
+      {
+        "firstname" : "mane",
+        "lastname" : "manukyan",
+        "degree" : "phd",
+        "jobtitle" : "researcher",
+        "organization" : "ysu",
+        "subject" : "data science"
+      },
+      {
+        "firstname" : "anna",
+        "lastname" : "sahakyan",
+        "degree" : "none",
+        "jobtitle" : "professor",
+        "organization" : "ysmu",
+        "subject" : "biology"
+      },
+      {
+        "firstname" : "arame",
+        "lastname" : "poghosyan",
+        "degree" : "none",
+        "jobtitle" : "professor",
+        "organization" : "aua",
+        "subject" : "chemistry"
+      }
+    ]
+}
