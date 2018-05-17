@@ -32,6 +32,7 @@ def findMatches(scientists, keyword_values):
             matches.append(item)
     return matches
 
+
 def printing(matches):
     for i in range(len(matches)):
         for key in matches[i]:
@@ -42,8 +43,10 @@ def main():
     scientists = loadScientistList()
     keyword_values = inputSearchOptions(scientists)
     matches = findMatches(scientists, keyword_values)
-    printing(matches)
-
+    if len(matches) > 0:
+        printing(matches)
+    else:
+        print("No Matches")
 
 main()
 
