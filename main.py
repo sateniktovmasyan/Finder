@@ -13,7 +13,7 @@ def inputSearchOptions(scientists):
     keyword_values = {}
     print ("here are the keywords: " + str(keywords))
     for item in keywords:
-        user_answer = raw_input("Please insert value for " + item)
+        user_answer = raw_input("Please insert value for " + item + " ")
         if user_answer != "":
             keyword_values[item] = user_answer.lower()
     return keyword_values
